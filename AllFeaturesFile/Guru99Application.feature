@@ -15,3 +15,6 @@ Feature: Test GURU99 Application
 
   Scenario: validate Sign on page
     When user enters valid username, password and click on submit button
+
+  Scenario: validate Login Success Page
+    When user validate login success page text and url
