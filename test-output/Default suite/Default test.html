@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 17 00:56:05 IST 2024</td>
+<td>Started on:</td><td>Wed Jan 17 01:10:09 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (392 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (370 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate User Information", "Test GURU99 Application"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user enters valid username, password, confirmpassword and click on submit button&apos; is undefined.
+<td title='TestRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate signinPage", "Test GURU99 Application"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user click on Signin link&apos; is undefined.
 You can implement this step using the snippet(s) below:
 
-@When(&quot;user enters valid username, password, confirmpassword and click on submit button&quot;)
-public void user_enters_valid_username_password_confirmpassword_and_click_on_submit_button() {
+@When(&quot;user click on Signin link&quot;)
+public void user_click_on_signin_link() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -118,12 +118,12 @@ public void user_enters_valid_username_password_confirmpassword_and_click_on_sub
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1671816300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1671816300'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user enters valid username, password, confirmpassword and click on submit button&apos; is undefined.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1069584108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1069584108'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user click on Signin link&apos; is undefined.
 You can implement this step using the snippet(s) below:
 
-@When(&quot;user enters valid username, password, confirmpassword and click on submit button&quot;)
-public void user_enters_valid_username_password_confirmpassword_and_click_on_submit_button() {
+@When(&quot;user click on Signin link&quot;)
+public void user_click_on_signin_link() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -179,6 +179,11 @@ public void user_enters_valid_username_password_confirmpassword_and_click_on_sub
 <td>TestRunner.RunnerTest@7ae42ce3</td></tr>
 <tr>
 <td title='TestRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate Mailing Information", "Test GURU99 Application"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.RunnerTest@7ae42ce3</td></tr>
+<tr>
+<td title='TestRunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: TestRunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate User Information", "Test GURU99 Application"</td>
 <td></td>
 <td>0</td>
 <td>TestRunner.RunnerTest@7ae42ce3</td></tr>

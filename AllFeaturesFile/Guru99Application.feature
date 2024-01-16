@@ -10,3 +10,5 @@ Feature: Test GURU99 Application
   Scenario: validate User Information
     When user enters valid username, password, confirmpassword and click on submit button
 
+  Scenario: validate signinPage
+    When user click on Signin link
