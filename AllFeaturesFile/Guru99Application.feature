@@ -12,3 +12,6 @@ Feature: Test GURU99 Application
 
   Scenario: validate signinPage
     When user click on Signin link
+
+  Scenario: validate Sign on page
+    When user enters valid username, password and click on submit button
