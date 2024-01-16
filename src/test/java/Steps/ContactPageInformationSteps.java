@@ -12,6 +12,7 @@ public class ContactPageInformationSteps extends BaseClass{
 	@Given("user is on RegisterPage and validate the registerPage URL")
 	public void user_is_on_register_page_and_validate_the_register_page_url() {
 	    
+		BaseClass.initialization();
 		 contactInformationPage=new ContactInformationPage();
 		String actualUrl= contactInformationPage.getRegisterPageUrl();
 		boolean b=actualUrl.contains("register");
