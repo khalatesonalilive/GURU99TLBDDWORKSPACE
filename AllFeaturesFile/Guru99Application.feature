@@ -6,3 +6,7 @@ Feature: Test GURU99 Application
 
   Scenario: validate Mailing Information
     Given user enters valid address, city , state,postal code and country
+
+  Scenario: validate User Information
+    When user enters valid username, password, confirmpassword and click on submit button
+
